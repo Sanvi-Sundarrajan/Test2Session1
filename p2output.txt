@@ -1,1 +1,11 @@
+gcc p2original.c
+ ./a.out
+Enter the coordinates
+1 2 4 2 3 5
+Three lines form a triangle
+ ./a.out
+Enter the coordinates
+1 1 2 2 3 3
+Three lines do not form a triangle
+ 
 
