@@ -1,1 +1,12 @@
+Output text
+
+gcc p1original.c -lm
+ ./a.out
+Enter the coordinates
+1
+1
+2
+2
+The distance between point (1.000000,2.000000) and (1.000000,2.000000) is 1.414214 
+ 
 

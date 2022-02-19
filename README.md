@@ -65,7 +65,7 @@
 	<br> void find_length(Line \*l);
 	<br> void output(Line l);
 	
-<br> 8. Write a program to find the permeter of a polygon
+<br> 8. Write a program to find the perimeter of a polygon
 	<br> struct _point {
 	<br>	float x,y;
 	<br> };
