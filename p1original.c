@@ -6,10 +6,6 @@ input:
 1 1 2 2
 output:
 the distance between point (1.000000,1.000000) and (2.000000,2.000000) is with 1.4142	*/
-
-#include<stdio.h>
-#include <math.h>
-
 #include<stdio.h>
 #include <math.h>
 
