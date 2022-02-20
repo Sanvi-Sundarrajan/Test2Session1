@@ -1,11 +1,11 @@
 gcc p3original.c
  ./a.out
 Enter the number
-8
-The number is not prime
+3
+The number 3 is a prime
  ./a.out
 Enter the number
-2
-The number 2 is a prime
+8
+The number is not prime
  
 

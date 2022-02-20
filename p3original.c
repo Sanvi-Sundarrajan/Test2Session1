@@ -16,7 +16,7 @@ int input_number()
 }
 int is_prime(int n)
 {
- int count=0, f=1;
+ /*int count=0, f=1;
   while(f<=n)
     {
       if(n%f==0)
@@ -25,12 +25,20 @@ int is_prime(int n)
     }
   if (count>2)
   return 0;
+  return 1;*/
+  int f=2;
+  while(f<=n/2)
+    {
+      if(n%f==0)
+        return 0;
+        f++;
+    }
   return 1;
 
 }
 void output(int n, int prime)
 {
-  if(prime==1)
+  if(is_prime(n))
     printf("The number %d is a prime\n",n);
   else
     printf("The number is not prime\n") ;
