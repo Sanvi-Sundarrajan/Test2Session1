@@ -1,1 +1,7 @@
 
+gcc p4original.c
+ ./a.out
+Enter the number 
+10
+The fibonacci 10th term is: 34 
+
