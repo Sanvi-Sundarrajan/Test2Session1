@@ -31,7 +31,7 @@ int string_index(char *s1, char *s2)
   for(int i=0;i<l1-l2;i++)
     if (string_ncmp(s1,s2))
       return i;
-  return -1;
+ 
 }
 void output(char *s1,char *s2, int index)
 {
