@@ -27,7 +27,7 @@ string_index (char *s1, char *s2)
             j = 0;
         }
     }
-    return j;
+    return i-j;
     return -1;
 }
 
