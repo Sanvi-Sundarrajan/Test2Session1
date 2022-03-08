@@ -28,13 +28,15 @@ string_index (char *s1, char *s2)
         }
     }
     return i-j;
-    return -1;
+    
 }
 
     void output (char *s1, char *s2, int index, int l)
   {
-    if(string_index)
+    if(index==l)
     printf ("The the index of the substring is %d", index);
+    else
+    printf("Substring not found") ; 
    
   }
   int main ()
