@@ -58,21 +58,3 @@ int main()
   output(l);
   return 0;
 }
-}
-void find_length(Line *l)
-{
-  l->distance=sqrt(((l->p2.x-l->p1.x)*(l->p2.x-l->p1.x))+((l->p2.y-l->p1.y)*(l->p2.y-l->p1.y)));
-  
-}
-void output(Line l)
-{
-  printf("The distance between point (%f,%f) and (%f,%f) is %f \n",l.p1.x,l.p1,y,l.p2.x,l.p2,y,l.distance);
-}
-int main()
-{
-  Line l;
-  l=input_line();
-  find_length(&l);
-  output(l);
-  return 0;
-}
