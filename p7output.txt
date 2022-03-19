@@ -1,1 +1,11 @@
+Enter the coordinates of the point
+1 2
+Enter the coordinates of the point
+3 5
+The distance between point (1.000000,2.000000) and (3.000000,5.000000) is 3.605551 
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
 
