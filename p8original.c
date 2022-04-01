@@ -57,7 +57,7 @@ Point input_point()
   scanf("%f%f",&p.x,&p.y);
   return p;
 }
-float lenght(Point p1,Point p2)
+float length(Point p1,Point p2)
 {
   float distance= sqrt((p2.x-p1.x)*(p2.x-p1.x)+(p2.y-p1.y)*(p2.y-p1.y));
   return distance;
@@ -66,13 +66,18 @@ Line input_line(int n)
 {
   Line l;
   l.p1=input_point(n);
-  l.distance=lenght(l.p1,l.p2);
   return l;
 }
 void input_n_lines(int n, Line l[n])
 {
     for(int i=0;i<n;i++)
     l[i]=input_line(n);
+}
+int dist(int n, Line l[n])
+{
+    int i;
+    for(i=0;i<n;i++)
+    l[i].distance=length(l[i].p1,l[i+1].p1);
 }
 void input_polygon(int n,Polygon*p)
 {
@@ -83,7 +88,7 @@ void input_polygon(int n,Polygon*p)
 void find_perimeter(Polygon p)
 {
   for(int i=0;i<p.n;i++)
-  p.perimeter+=p.l[i].distance;
+  p.perimeter=p.perimeter+dist(p.n,p.l);
 }
 
 void output(Polygon p)
